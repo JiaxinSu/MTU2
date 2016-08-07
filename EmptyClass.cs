@@ -4,7 +4,7 @@ namespace MTUdemo
 	[TestFixture]
 	public class EmptyClass
 	{
-		private IWebDriver driver;
+		private WebDriver driver;
 		string url = "http://symbiote-app.herokuapp.com/";
 
 		[SetUp]

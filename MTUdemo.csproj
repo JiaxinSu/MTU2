@@ -38,7 +38,7 @@
   <ItemGroup>
     <Compile Include="Tests.cs" />
     <Compile Include="AppInitializer.cs" />
-    <Compile Include="EmptyClass.cs" />
+    <Compile Include="index.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
