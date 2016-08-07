@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace MTUdemo
 {
 	[TestFixture]
@@ -27,6 +27,11 @@ namespace MTUdemo
 			driver.FindElement(By.Id("username")).SendKeys("admin");
 			driver.FindElement(By.Id("password")).SendKeys("admin");
 			driver.FindElement(By.Id("login-button")).Click();
+
+			/**
+			Console.WriteLine("Testing!");
+			Console.WriteLine("Testing 2!");
+			Console.ReadLine(); */
 		}
 	}
 }
